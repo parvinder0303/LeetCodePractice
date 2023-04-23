@@ -12,6 +12,7 @@ public class TwoPointerSortingSquare {
 
        for(int i=(arr.length-1);i>=0;i--){
             int square;
+            square=arr[i]*arr[i];
            // System.out.print(Math.abs(arr[l]));
            // System.out.println(Math.abs(arr[Right]));
 
